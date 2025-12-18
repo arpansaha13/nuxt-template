@@ -23,6 +23,8 @@ These modules are pre-packed with the Nuxt UI module.
 - [Fonts](https://ui.nuxt.com/getting-started/fonts) - Plug-and-play web font optimization and configuration for Nuxt apps.
 - [I18n](https://ui.nuxt.com/getting-started/i18n/nuxt) - I18n module for Nuxt.
 
+> [Zod](https://zod.dev/) is included for schema validation in `UForm` ([see here](https://ui.nuxt.com/docs/components/form#schema-validation)).
+
 ## Other Features
 
 - [pnpm](https://pnpm.io/) - Fast, disk space efficient package manager.

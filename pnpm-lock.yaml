@@ -25,7 +25,7 @@ importers:
         version: 2.0.0(@netlify/blobs@9.1.2)(db0@0.3.4(better-sqlite3@12.5.0))(ioredis@5.8.2)(magicast@0.5.1)
       '@nuxt/ui':
         specifier: ^4.2.1
-        version: 4.2.1(@babel/parser@7.28.5)(@netlify/blobs@9.1.2)(@nuxt/content@3.9.0(better-sqlite3@12.5.0)(magicast@0.5.1))(axios@1.13.2)(change-case@5.4.4)(db0@0.3.4(better-sqlite3@12.5.0))(embla-carousel@8.6.0)(ioredis@5.8.2)(jwt-decode@4.0.0)(magicast@0.5.1)(typescript@5.9.3)(vite@7.2.7(@types/node@25.0.2)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.1)(yaml@2.8.2))(vue-router@4.6.4(vue@3.5.25(typescript@5.9.3)))(vue@3.5.25(typescript@5.9.3))(zod@3.25.76)
+        version: 4.2.1(@babel/parser@7.28.5)(@netlify/blobs@9.1.2)(@nuxt/content@3.9.0(better-sqlite3@12.5.0)(magicast@0.5.1))(axios@1.13.2)(change-case@5.4.4)(db0@0.3.4(better-sqlite3@12.5.0))(embla-carousel@8.6.0)(ioredis@5.8.2)(jwt-decode@4.0.0)(magicast@0.5.1)(typescript@5.9.3)(vite@7.2.7(@types/node@25.0.2)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.1)(yaml@2.8.2))(vue-router@4.6.4(vue@3.5.25(typescript@5.9.3)))(vue@3.5.25(typescript@5.9.3))(zod@4.2.1)
       '@pinia/nuxt':
         specifier: ^0.11.3
         version: 0.11.3(magicast@0.5.1)(pinia@3.0.4(typescript@5.9.3)(vue@3.5.25(typescript@5.9.3)))
@@ -53,6 +53,9 @@ importers:
       vue-router:
         specifier: ^4.6.4
         version: 4.6.4(vue@3.5.25(typescript@5.9.3))
+      zod:
+        specifier: ^4.2.1
+        version: 4.2.1
     devDependencies:
       '@nuxt/eslint':
         specifier: ^1.12.1
@@ -89,7 +92,7 @@ importers:
         version: 5.9.3
       unlighthouse:
         specifier: ^0.17.4
-        version: 0.17.4(@babel/parser@7.28.5)(@netlify/blobs@9.1.2)(@nuxt/content@3.9.0(better-sqlite3@12.5.0)(magicast@0.5.1))(axios@1.13.2)(change-case@5.4.4)(db0@0.3.4(better-sqlite3@12.5.0))(embla-carousel@8.6.0)(ioredis@5.8.2)(jwt-decode@4.0.0)(magicast@0.5.1)(puppeteer@24.16.0(typescript@5.9.3))(rollup@4.53.3)(typescript@5.9.3)(vite@7.2.7(@types/node@25.0.2)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.1)(yaml@2.8.2))(vue-router@4.6.4(vue@3.5.25(typescript@5.9.3)))(vue@3.5.25(typescript@5.9.3))(zod@3.25.76)
+        version: 0.17.4(@babel/parser@7.28.5)(@netlify/blobs@9.1.2)(@nuxt/content@3.9.0(better-sqlite3@12.5.0)(magicast@0.5.1))(axios@1.13.2)(change-case@5.4.4)(db0@0.3.4(better-sqlite3@12.5.0))(embla-carousel@8.6.0)(ioredis@5.8.2)(jwt-decode@4.0.0)(magicast@0.5.1)(puppeteer@24.16.0(typescript@5.9.3))(rollup@4.53.3)(typescript@5.9.3)(vite@7.2.7(@types/node@25.0.2)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.1)(yaml@2.8.2))(vue-router@4.6.4(vue@3.5.25(typescript@5.9.3)))(vue@3.5.25(typescript@5.9.3))(zod@4.2.1)
       vitest:
         specifier: ^4.0.15
         version: 4.0.15(@opentelemetry/api@1.9.0)(@types/node@25.0.2)(happy-dom@20.0.11)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.1)(yaml@2.8.2)
@@ -7307,6 +7310,9 @@ packages:
   zod@3.25.76:
     resolution: {integrity: sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==}
 
+  zod@4.2.1:
+    resolution: {integrity: sha512-0wZ1IRqGGhMP76gLqz8EyfBXKk0J2qo2+H3fi4mcUP/KtTocoX08nmIAHl1Z2kJIZbZee8KOpBCSNPRgauucjw==}
+
   zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
 
@@ -8652,7 +8658,7 @@ snapshots:
       - magicast
       - typescript
 
-  '@nuxt/ui@4.2.1(@babel/parser@7.28.5)(@netlify/blobs@9.1.2)(@nuxt/content@3.9.0(better-sqlite3@12.5.0)(magicast@0.5.1))(axios@1.13.2)(change-case@5.4.4)(db0@0.3.4(better-sqlite3@12.5.0))(embla-carousel@8.6.0)(ioredis@5.8.2)(jwt-decode@4.0.0)(magicast@0.5.1)(typescript@5.9.3)(vite@7.2.7(@types/node@25.0.2)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.1)(yaml@2.8.2))(vue-router@4.6.4(vue@3.5.25(typescript@5.9.3)))(vue@3.5.25(typescript@5.9.3))(zod@3.25.76)':
+  '@nuxt/ui@4.2.1(@babel/parser@7.28.5)(@netlify/blobs@9.1.2)(@nuxt/content@3.9.0(better-sqlite3@12.5.0)(magicast@0.5.1))(axios@1.13.2)(change-case@5.4.4)(db0@0.3.4(better-sqlite3@12.5.0))(embla-carousel@8.6.0)(ioredis@5.8.2)(jwt-decode@4.0.0)(magicast@0.5.1)(typescript@5.9.3)(vite@7.2.7(@types/node@25.0.2)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.1)(yaml@2.8.2))(vue-router@4.6.4(vue@3.5.25(typescript@5.9.3)))(vue@3.5.25(typescript@5.9.3))(zod@4.2.1)':
     dependencies:
       '@iconify/vue': 5.0.0(vue@3.5.25(typescript@5.9.3))
       '@internationalized/date': 3.10.0
@@ -8703,7 +8709,7 @@ snapshots:
     optionalDependencies:
       '@nuxt/content': 3.9.0(better-sqlite3@12.5.0)(magicast@0.5.1)
       vue-router: 4.6.4(vue@3.5.25(typescript@5.9.3))
-      zod: 3.25.76
+      zod: 4.2.1
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -10008,10 +10014,10 @@ snapshots:
       unhead: 2.0.19
       vue: 3.5.25(typescript@5.9.3)
 
-  '@unlighthouse/cli@0.17.4(@babel/parser@7.28.5)(@netlify/blobs@9.1.2)(@nuxt/content@3.9.0(better-sqlite3@12.5.0)(magicast@0.5.1))(axios@1.13.2)(change-case@5.4.4)(db0@0.3.4(better-sqlite3@12.5.0))(embla-carousel@8.6.0)(ioredis@5.8.2)(jwt-decode@4.0.0)(magicast@0.5.1)(puppeteer@24.16.0(typescript@5.9.3))(rollup@4.53.3)(typescript@5.9.3)(vite@7.2.7(@types/node@25.0.2)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.1)(yaml@2.8.2))(vue-router@4.6.4(vue@3.5.25(typescript@5.9.3)))(zod@3.25.76)':
+  '@unlighthouse/cli@0.17.4(@babel/parser@7.28.5)(@netlify/blobs@9.1.2)(@nuxt/content@3.9.0(better-sqlite3@12.5.0)(magicast@0.5.1))(axios@1.13.2)(change-case@5.4.4)(db0@0.3.4(better-sqlite3@12.5.0))(embla-carousel@8.6.0)(ioredis@5.8.2)(jwt-decode@4.0.0)(magicast@0.5.1)(puppeteer@24.16.0(typescript@5.9.3))(rollup@4.53.3)(typescript@5.9.3)(vite@7.2.7(@types/node@25.0.2)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.1)(yaml@2.8.2))(vue-router@4.6.4(vue@3.5.25(typescript@5.9.3)))(zod@4.2.1)':
     dependencies:
       '@lhci/utils': 0.15.1
-      '@unlighthouse/client': 0.17.4(@babel/parser@7.28.5)(@netlify/blobs@9.1.2)(@nuxt/content@3.9.0(better-sqlite3@12.5.0)(magicast@0.5.1))(axios@1.13.2)(change-case@5.4.4)(db0@0.3.4(better-sqlite3@12.5.0))(embla-carousel@8.6.0)(ioredis@5.8.2)(jwt-decode@4.0.0)(magicast@0.5.1)(typescript@5.9.3)(vite@7.2.7(@types/node@25.0.2)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.1)(yaml@2.8.2))(vue-router@4.6.4(vue@3.5.25(typescript@5.9.3)))(zod@3.25.76)
+      '@unlighthouse/client': 0.17.4(@babel/parser@7.28.5)(@netlify/blobs@9.1.2)(@nuxt/content@3.9.0(better-sqlite3@12.5.0)(magicast@0.5.1))(axios@1.13.2)(change-case@5.4.4)(db0@0.3.4(better-sqlite3@12.5.0))(embla-carousel@8.6.0)(ioredis@5.8.2)(jwt-decode@4.0.0)(magicast@0.5.1)(typescript@5.9.3)(vite@7.2.7(@types/node@25.0.2)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.1)(yaml@2.8.2))(vue-router@4.6.4(vue@3.5.25(typescript@5.9.3)))(zod@4.2.1)
       '@unlighthouse/core': 0.17.4(magicast@0.5.1)(puppeteer@24.16.0(typescript@5.9.3))(rollup@4.53.3)
       '@unlighthouse/server': 0.17.4(magicast@0.5.1)(puppeteer@24.16.0(typescript@5.9.3))(rollup@4.53.3)
       better-opn: 3.0.2
@@ -10081,10 +10087,10 @@ snapshots:
       - yup
       - zod
 
-  '@unlighthouse/client@0.17.4(@babel/parser@7.28.5)(@netlify/blobs@9.1.2)(@nuxt/content@3.9.0(better-sqlite3@12.5.0)(magicast@0.5.1))(axios@1.13.2)(change-case@5.4.4)(db0@0.3.4(better-sqlite3@12.5.0))(embla-carousel@8.6.0)(ioredis@5.8.2)(jwt-decode@4.0.0)(magicast@0.5.1)(typescript@5.9.3)(vite@7.2.7(@types/node@25.0.2)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.1)(yaml@2.8.2))(vue-router@4.6.4(vue@3.5.25(typescript@5.9.3)))(zod@3.25.76)':
+  '@unlighthouse/client@0.17.4(@babel/parser@7.28.5)(@netlify/blobs@9.1.2)(@nuxt/content@3.9.0(better-sqlite3@12.5.0)(magicast@0.5.1))(axios@1.13.2)(change-case@5.4.4)(db0@0.3.4(better-sqlite3@12.5.0))(embla-carousel@8.6.0)(ioredis@5.8.2)(jwt-decode@4.0.0)(magicast@0.5.1)(typescript@5.9.3)(vite@7.2.7(@types/node@25.0.2)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.1)(yaml@2.8.2))(vue-router@4.6.4(vue@3.5.25(typescript@5.9.3)))(zod@4.2.1)':
     dependencies:
       '@headlessui/vue': 1.7.23(vue@3.5.25(typescript@5.9.3))
-      '@nuxt/ui': 4.2.1(@babel/parser@7.28.5)(@netlify/blobs@9.1.2)(@nuxt/content@3.9.0(better-sqlite3@12.5.0)(magicast@0.5.1))(axios@1.13.2)(change-case@5.4.4)(db0@0.3.4(better-sqlite3@12.5.0))(embla-carousel@8.6.0)(ioredis@5.8.2)(jwt-decode@4.0.0)(magicast@0.5.1)(typescript@5.9.3)(vite@7.2.7(@types/node@25.0.2)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.1)(yaml@2.8.2))(vue-router@4.6.4(vue@3.5.25(typescript@5.9.3)))(vue@3.5.25(typescript@5.9.3))(zod@3.25.76)
+      '@nuxt/ui': 4.2.1(@babel/parser@7.28.5)(@netlify/blobs@9.1.2)(@nuxt/content@3.9.0(better-sqlite3@12.5.0)(magicast@0.5.1))(axios@1.13.2)(change-case@5.4.4)(db0@0.3.4(better-sqlite3@12.5.0))(embla-carousel@8.6.0)(ioredis@5.8.2)(jwt-decode@4.0.0)(magicast@0.5.1)(typescript@5.9.3)(vite@7.2.7(@types/node@25.0.2)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.1)(yaml@2.8.2))(vue-router@4.6.4(vue@3.5.25(typescript@5.9.3)))(vue@3.5.25(typescript@5.9.3))(zod@4.2.1)
       '@tailwindcss/vite': 4.1.18(vite@7.2.7(@types/node@25.0.2)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.1)(yaml@2.8.2))
       dayjs: 1.11.19
       defu: 6.1.4
@@ -15520,10 +15526,10 @@ snapshots:
 
   universalify@2.0.1: {}
 
-  unlighthouse@0.17.4(@babel/parser@7.28.5)(@netlify/blobs@9.1.2)(@nuxt/content@3.9.0(better-sqlite3@12.5.0)(magicast@0.5.1))(axios@1.13.2)(change-case@5.4.4)(db0@0.3.4(better-sqlite3@12.5.0))(embla-carousel@8.6.0)(ioredis@5.8.2)(jwt-decode@4.0.0)(magicast@0.5.1)(puppeteer@24.16.0(typescript@5.9.3))(rollup@4.53.3)(typescript@5.9.3)(vite@7.2.7(@types/node@25.0.2)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.1)(yaml@2.8.2))(vue-router@4.6.4(vue@3.5.25(typescript@5.9.3)))(vue@3.5.25(typescript@5.9.3))(zod@3.25.76):
+  unlighthouse@0.17.4(@babel/parser@7.28.5)(@netlify/blobs@9.1.2)(@nuxt/content@3.9.0(better-sqlite3@12.5.0)(magicast@0.5.1))(axios@1.13.2)(change-case@5.4.4)(db0@0.3.4(better-sqlite3@12.5.0))(embla-carousel@8.6.0)(ioredis@5.8.2)(jwt-decode@4.0.0)(magicast@0.5.1)(puppeteer@24.16.0(typescript@5.9.3))(rollup@4.53.3)(typescript@5.9.3)(vite@7.2.7(@types/node@25.0.2)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.1)(yaml@2.8.2))(vue-router@4.6.4(vue@3.5.25(typescript@5.9.3)))(vue@3.5.25(typescript@5.9.3))(zod@4.2.1):
     dependencies:
-      '@unlighthouse/cli': 0.17.4(@babel/parser@7.28.5)(@netlify/blobs@9.1.2)(@nuxt/content@3.9.0(better-sqlite3@12.5.0)(magicast@0.5.1))(axios@1.13.2)(change-case@5.4.4)(db0@0.3.4(better-sqlite3@12.5.0))(embla-carousel@8.6.0)(ioredis@5.8.2)(jwt-decode@4.0.0)(magicast@0.5.1)(puppeteer@24.16.0(typescript@5.9.3))(rollup@4.53.3)(typescript@5.9.3)(vite@7.2.7(@types/node@25.0.2)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.1)(yaml@2.8.2))(vue-router@4.6.4(vue@3.5.25(typescript@5.9.3)))(zod@3.25.76)
-      '@unlighthouse/client': 0.17.4(@babel/parser@7.28.5)(@netlify/blobs@9.1.2)(@nuxt/content@3.9.0(better-sqlite3@12.5.0)(magicast@0.5.1))(axios@1.13.2)(change-case@5.4.4)(db0@0.3.4(better-sqlite3@12.5.0))(embla-carousel@8.6.0)(ioredis@5.8.2)(jwt-decode@4.0.0)(magicast@0.5.1)(typescript@5.9.3)(vite@7.2.7(@types/node@25.0.2)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.1)(yaml@2.8.2))(vue-router@4.6.4(vue@3.5.25(typescript@5.9.3)))(zod@3.25.76)
+      '@unlighthouse/cli': 0.17.4(@babel/parser@7.28.5)(@netlify/blobs@9.1.2)(@nuxt/content@3.9.0(better-sqlite3@12.5.0)(magicast@0.5.1))(axios@1.13.2)(change-case@5.4.4)(db0@0.3.4(better-sqlite3@12.5.0))(embla-carousel@8.6.0)(ioredis@5.8.2)(jwt-decode@4.0.0)(magicast@0.5.1)(puppeteer@24.16.0(typescript@5.9.3))(rollup@4.53.3)(typescript@5.9.3)(vite@7.2.7(@types/node@25.0.2)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.1)(yaml@2.8.2))(vue-router@4.6.4(vue@3.5.25(typescript@5.9.3)))(zod@4.2.1)
+      '@unlighthouse/client': 0.17.4(@babel/parser@7.28.5)(@netlify/blobs@9.1.2)(@nuxt/content@3.9.0(better-sqlite3@12.5.0)(magicast@0.5.1))(axios@1.13.2)(change-case@5.4.4)(db0@0.3.4(better-sqlite3@12.5.0))(embla-carousel@8.6.0)(ioredis@5.8.2)(jwt-decode@4.0.0)(magicast@0.5.1)(typescript@5.9.3)(vite@7.2.7(@types/node@25.0.2)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.1)(yaml@2.8.2))(vue-router@4.6.4(vue@3.5.25(typescript@5.9.3)))(zod@4.2.1)
       '@unlighthouse/core': 0.17.4(magicast@0.5.1)(puppeteer@24.16.0(typescript@5.9.3))(rollup@4.53.3)
     optionalDependencies:
       puppeteer: 24.16.0(typescript@5.9.3)
@@ -16148,5 +16154,7 @@ snapshots:
       zod: 3.25.76
 
   zod@3.25.76: {}
+
+  zod@4.2.1: {}
 
   zwitch@2.0.4: {}
