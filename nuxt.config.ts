@@ -10,9 +10,6 @@ export default defineNuxtConfig({
     // https://vueuse.org/
     '@vueuse/nuxt',
 
-    // https://pinia.vuejs.org/
-    '@pinia/nuxt',
-
     // https://content.nuxtjs.org/
     '@nuxt/content',
 
