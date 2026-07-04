@@ -1,9 +1,4 @@
-/** Pathname prefixes that must not trigger 401 → login (e.g. OTP verify). */
-const UNAUTHORIZED_EXEMPT_URL_PREFIXES: string[] = [
-  // '/api/auth/verify/',
-]
-
-const LOGIN_PATH = '/auth/login'
+import { LOGIN_PATH, UNAUTHORIZED_EXEMPT_URL_PREFIXES } from '~/utils/auth'
 
 function pathnameOf(url: string) {
   try {
