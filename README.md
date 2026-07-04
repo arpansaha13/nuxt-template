@@ -1,13 +1,13 @@
-# Opinionated Nuxt 3 Starter Template
+# Opinionated Nuxt Starter Template
 
-## Nuxt 3 Modules
+## Nuxt Modules
 
-- [NuxtUI](https://ui.nuxt.com) - A UI Library for Modern Web Apps.
+- [Nuxt UI](https://ui.nuxt.com) - A UI Library for Modern Web Apps.
 - [VueUse](https://vueuse.org) - Collection of Vue Composition Utilities.
 - [Reka UI](https://reka-ui.com/) - Craft accessible web apps with Vue.
-- [Content](https://content.nuxtjs.org) - Content made easy for Vue Developers.
-- [Image](https://v1.image.nuxtjs.org) - Plug-and-play image optimization for Nuxt apps.
-- [Eslint](https://eslint.org) - The pluggable linting utility for JavaScript and JSX.
+- [Content](https://content.nuxt.com) - Content made easy for Vue Developers.
+- [Image](https://image.nuxt.com) - Plug-and-play image optimization for Nuxt apps.
+- [ESLint](https://eslint.nuxt.com) - Nuxt ESLint module / config integration.
 
 > These are the pre-packed modules in this starter template. Feel free to ditch any module you won't be using.
 
@@ -19,17 +19,24 @@ These modules are pre-packed with the Nuxt UI module.
 - [Color mode](https://ui.nuxt.com/getting-started/color-mode/nuxt) - Dark and Light mode with auto-detection made easy with Nuxt 🌗.
 - [Icon](https://ui.nuxt.com/getting-started/icons/nuxt) - Icon module for Nuxt with 100,000+ ready to use icons from Iconify.
 - [Fonts](https://ui.nuxt.com/getting-started/fonts) - Plug-and-play web font optimization and configuration for Nuxt apps.
-- [I18n](https://ui.nuxt.com/getting-started/i18n/nuxt) - I18n module for Nuxt.
 
-> [Zod](https://zod.dev/) is included for schema validation in `UForm` ([see here](https://ui.nuxt.com/docs/components/form#schema-validation)).
+> [Zod](https://zod.dev/) is mainly included for schema validation in `UForm` ([see here](https://ui.nuxt.com/docs/components/form#schema-validation)).
+
+## Out-of-the-Box Features
+
+- **API Client:** Pre-configured `$api` client and plugin for standardized fetch requests.
+- **Environment Validation:** Fail-fast validation of environment variables on startup.
+- **Custom Logger:** Centralized `useLogger` utility for structured logs.
+- **Hydration Flag:** Client hydration flag plugin helper.
+- **Auth Scaffolding:** Built-in auth layouts, login pages, and session middleware.
 
 ## Other Features
 
-- [pnpm](https://pnpm.io/) - Fast, disk space efficient package manager.
+- [pnpm](https://pnpm.io/) - Save time. Save disk space. Supercharge your monorepos.
 - [Prettier](https://prettier.io/) - Opinionated code formatter.
   - [prettier-plugin-tailwindcss](https://github.com/tailwindlabs/prettier-plugin-tailwindcss#installation) - Automatic Class Sorting with Prettier. [Read more](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier).
-- [Unlighthouse](https://unlighthouse.dev/) - Like Google Lighthouse, but it scans every single page.
-- [TypeScript](https://www.typescriptlang.org/) - Why not?
+- [Unlighthouse](https://unlighthouse.dev/) - Lighthouse for your entire site.
+- [TypeScript](https://www.typescriptlang.org/) - JavaScript with syntax for types.
 
 ## Setup
 
@@ -67,9 +74,10 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 
 When you use this template, try to follow the checklist to update your info properly
 
+- [ ] Copy `.env.example` to `.env` and configure environment variables
 - [ ] Change the name and description in `package.json`
 - [ ] Change the author name in `LICENSE`
-- [ ] Remove `<NuxtWelcome />` in `pages/index.vue`
+- [ ] Remove `<NuxtWelcome />` in `src/pages/index.vue`
 - [ ] Clean up the READMEs and remove routes
 - [ ] Clean up the images in `public/`
 - [ ] Remove any modules you won't be needing.
