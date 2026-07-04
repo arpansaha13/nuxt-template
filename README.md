@@ -7,7 +7,8 @@
 - [Reka UI](https://reka-ui.com/) - Craft accessible web apps with Vue.
 - [Content](https://content.nuxt.com) - Content made easy for Vue Developers.
 - [Image](https://image.nuxt.com) - Plug-and-play image optimization for Nuxt apps.
-- [ESLint](https://eslint.nuxt.com) - Nuxt ESLint module / config integration.
+- [ESLint](https://eslint.nuxt.com) - Find and fix problems in your JavaScript code.
+- [Hints](https://nuxt.com/modules/hints) - DevTools hints for performance, hydration, security, and more.
 
 > These are the pre-packed modules in this starter template. Feel free to ditch any module you won't be using.
 

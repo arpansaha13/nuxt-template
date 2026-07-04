@@ -19,6 +19,9 @@ export default defineNuxtConfig({
     // https://eslint.nuxt.com/
     '@nuxt/eslint',
 
+    // https://nuxt.com/modules/hints
+    '@nuxt/hints',
+
     // https://nuxt.com/docs/getting-started/testing
     '@nuxt/test-utils/module',
   ],
