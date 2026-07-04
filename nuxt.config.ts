@@ -37,6 +37,21 @@ export default defineNuxtConfig({
     },
   },
 
+  // Auto-import app state, mutation helpers, and API composables (create files under these dirs as needed).
+  imports: {
+    dirs: ['~/store', '~/utils/mutations', '~/composables/api'],
+  },
+
+  runtimeConfig: {
+    // Override with NUXT_AUTH_COOKIE_NAME / NUXT_API_BASE_URL
+    authCookieName: 'session',
+    apiBaseUrl: 'http://localhost:4000',
+    public: {
+      // Override with NUXT_PUBLIC_ENVIRONMENT
+      environment: 'development',
+    },
+  },
+
   css: ['~/assets/css/main.css'],
 
   colorMode: {

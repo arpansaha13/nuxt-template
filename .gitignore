@@ -6,9 +6,14 @@ node_modules
 .output
 .env
 dist
+.DS_Store
 
 # Nuxt fonts
 .data
 
 # Unlighthouse
 .unlighthouse
+
+# Other
+.serena
+.playwright-mcp
