@@ -8,7 +8,6 @@
 - [Content](https://content.nuxtjs.org) - Content made easy for Vue Developers.
 - [Image](https://v1.image.nuxtjs.org) - Plug-and-play image optimization for Nuxt apps.
 - [Eslint](https://eslint.org) - The pluggable linting utility for JavaScript and JSX.
-- [HTML validator](https://html-validator.nuxtjs.org) - Automatically validate Nuxt server-rendered HTML.
 
 > These are the pre-packed modules in this starter template. Feel free to ditch any module you won't be using.
 
