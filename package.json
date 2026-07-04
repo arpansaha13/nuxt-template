@@ -18,38 +18,39 @@
     "unlighthouse": "unlighthouse"
   },
   "engines": {
-    "node": ">=20.0.0"
+    "node": ">=24.0.0"
   },
   "dependencies": {
     "@iconify-json/heroicons": "^1.2.3",
-    "@iconify-json/lucide": "^1.2.82",
-    "@iconify-json/simple-icons": "^1.2.64",
-    "@nuxt/content": "^3.10.0",
+    "@iconify-json/lucide": "^1.2.116",
+    "@iconify-json/simple-icons": "^1.2.88",
+    "@nuxt/content": "^3.15.0",
     "@nuxt/image": "^2.0.0",
-    "@nuxt/ui": "^4.3.0",
-    "@vueuse/nuxt": "^14.1.0",
-    "better-sqlite3": "^12.5.0",
-    "nuxt": "^4.2.2",
-    "reka-ui": "^2.7.0",
-    "tailwindcss": "^4.1.18",
-    "vue": "^3.5.26",
-    "vue-router": "^4.6.4",
-    "zod": "^4.3.4"
+    "@nuxt/ui": "^4.9.0",
+    "@vueuse/nuxt": "^14.3.0",
+    "better-sqlite3": "^12.11.1",
+    "date-fns": "^4.4.0",
+    "nuxt": "^4.4.8",
+    "reka-ui": "^2.10.1",
+    "tailwindcss": "^4.3.2",
+    "vue": "^3.5.39",
+    "vue-router": "^5.1.0",
+    "zod": "^4.4.3"
   },
   "devDependencies": {
-    "@nuxt/eslint": "^1.12.1",
-    "@nuxt/test-utils": "^3.21.0",
+    "@nuxt/eslint": "^1.16.0",
+    "@nuxt/test-utils": "^4.0.3",
     "@nuxtjs/html-validator": "^2.1.0",
-    "@vitest/coverage-v8": "^4.0.16",
-    "@vue/test-utils": "^2.4.6",
-    "eslint": "^9.39.2",
-    "happy-dom": "^20.0.11",
-    "playwright-core": "^1.57.0",
-    "prettier": "^3.7.4",
-    "prettier-plugin-tailwindcss": "^0.7.2",
-    "typescript": "^5.9.3",
-    "unlighthouse": "^0.17.4",
-    "vitest": "^4.0.16",
-    "vue-component-type-helpers": "^3.2.1"
+    "@vitest/coverage-v8": "^4.1.9",
+    "@vue/test-utils": "^2.4.11",
+    "eslint": "^10.6.0",
+    "happy-dom": "^20.10.6",
+    "playwright-core": "^1.61.1",
+    "prettier": "^3.9.4",
+    "prettier-plugin-tailwindcss": "^0.8.0",
+    "typescript": "^6.0.3",
+    "unlighthouse": "^0.18.0",
+    "vitest": "^4.1.9",
+    "vue-component-type-helpers": "^3.3.6"
   }
 }

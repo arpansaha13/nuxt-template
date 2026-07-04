@@ -42,6 +42,12 @@ export default defineNuxtConfig({
     dirs: ['~/store', '~/utils/mutations', '~/composables/api'],
   },
 
+  vite: {
+    optimizeDeps: {
+      include: ['date-fns', 'zod'],
+    },
+  },
+
   runtimeConfig: {
     // Override with NUXT_AUTH_COOKIE_NAME / NUXT_API_BASE_URL
     authCookieName: 'session',
